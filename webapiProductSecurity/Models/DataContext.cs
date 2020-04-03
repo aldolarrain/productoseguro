@@ -4,7 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
-namespace webapiProductoSeguro.Models
+namespace webapiProductSecurity.Models
 {
     public class DataContext:DbContext
     {
@@ -13,6 +13,6 @@ namespace webapiProductoSeguro.Models
 
         }
 
-        public System.Data.Entity.DbSet<webapiProductoSeguro.Models.Product> Products { get; set; }
+        public System.Data.Entity.DbSet<webapiProductSecurity.Models.Product> Products { get; set; }
     }
 }
